@@ -1,0 +1,481 @@
+2025-05-29T11:29:26.329+05:30  INFO 2423 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication using Java 23 with PID 2423 (/Users/vickyabishek/Downloads/MCPEcom/target/classes started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T11:29:26.330+05:30  INFO 2423 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T11:29:26.766+05:30  INFO 2423 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T11:29:26.844+05:30  INFO 2423 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2025-05-29T11:29:27.122+05:30  INFO 2423 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-29T11:29:27.130+05:30  INFO 2423 --- [MCPEcom] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29T11:29:27.130+05:30  INFO 2423 --- [MCPEcom] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-29T11:29:27.159+05:30  INFO 2423 --- [MCPEcom] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29T11:29:27.159+05:30  INFO 2423 --- [MCPEcom] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 792 ms
+2025-05-29T11:29:27.211+05:30  INFO 2423 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T11:29:27.263+05:30  INFO 2423 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@20cdb152
+2025-05-29T11:29:27.264+05:30  INFO 2423 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T11:29:27.312+05:30  INFO 2423 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T11:29:27.344+05:30  INFO 2423 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T11:29:27.361+05:30  INFO 2423 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T11:29:27.502+05:30  INFO 2423 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T11:29:27.553+05:30  INFO 2423 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T11:29:27.989+05:30  INFO 2423 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T11:29:27.991+05:30  INFO 2423 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T11:29:28.115+05:30  WARN 2423 --- [MCPEcom] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weatherTools' defined in com.example.MCPEcom.McpEcomApplication: Failed to instantiate [org.springframework.ai.tool.ToolCallbackProvider]: Factory method 'weatherTools' threw exception with message: No @Tool annotated methods found in com.example.MCPEcom.service.ProductService@5b2fc2c0.Did you mean to pass a ToolCallback or ToolCallbackProvider? If so, you have to use .toolCallbacks() instead of .tool()
+2025-05-29T11:29:28.116+05:30  INFO 2423 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T11:29:28.117+05:30  INFO 2423 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T11:29:28.119+05:30  INFO 2423 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T11:29:28.120+05:30  INFO 2423 --- [MCPEcom] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-29T11:29:28.128+05:30  INFO 2423 --- [MCPEcom] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-29T11:29:28.136+05:30 ERROR 2423 --- [MCPEcom] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weatherTools' defined in com.example.MCPEcom.McpEcomApplication: Failed to instantiate [org.springframework.ai.tool.ToolCallbackProvider]: Factory method 'weatherTools' threw exception with message: No @Tool annotated methods found in com.example.MCPEcom.service.ProductService@5b2fc2c0.Did you mean to pass a ToolCallback or ToolCallbackProvider? If so, you have to use .toolCallbacks() instead of .tool()
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.5.0.jar:3.5.0]
+	at com.example.MCPEcom.McpEcomApplication.main(McpEcomApplication.java:14) ~[classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ai.tool.ToolCallbackProvider]: Factory method 'weatherTools' threw exception with message: No @Tool annotated methods found in com.example.MCPEcom.service.ProductService@5b2fc2c0.Did you mean to pass a ToolCallback or ToolCallbackProvider? If so, you have to use .toolCallbacks() instead of .tool()
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 21 common frames omitted
+Caused by: java.lang.IllegalStateException: No @Tool annotated methods found in com.example.MCPEcom.service.ProductService@5b2fc2c0.Did you mean to pass a ToolCallback or ToolCallbackProvider? If so, you have to use .toolCallbacks() instead of .tool()
+	at org.springframework.ai.tool.method.MethodToolCallbackProvider.assertToolAnnotatedMethodsPresent(MethodToolCallbackProvider.java:75) ~[spring-ai-model-1.0.0.jar:1.0.0]
+	at org.springframework.ai.tool.method.MethodToolCallbackProvider.<init>(MethodToolCallbackProvider.java:59) ~[spring-ai-model-1.0.0.jar:1.0.0]
+	at org.springframework.ai.tool.method.MethodToolCallbackProvider$Builder.build(MethodToolCallbackProvider.java:145) ~[spring-ai-model-1.0.0.jar:1.0.0]
+	at com.example.MCPEcom.McpEcomApplication.weatherTools(McpEcomApplication.java:19) ~[classes/:na]
+	at com.example.MCPEcom.McpEcomApplication$$SpringCGLIB$$0.CGLIB$weatherTools$0(<generated>) ~[classes/:na]
+	at com.example.MCPEcom.McpEcomApplication$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.2.7.jar:6.2.7]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:393) ~[spring-context-6.2.7.jar:6.2.7]
+	at com.example.MCPEcom.McpEcomApplication$$SpringCGLIB$$0.weatherTools(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 24 common frames omitted
+
+2025-05-29T11:35:10.853+05:30  INFO 2523 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication using Java 23 with PID 2523 (/Users/vickyabishek/Downloads/MCPEcom/target/classes started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T11:35:10.854+05:30  INFO 2523 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T11:35:11.265+05:30  INFO 2523 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T11:35:11.340+05:30  INFO 2523 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 3 JPA repository interfaces.
+2025-05-29T11:35:11.570+05:30  INFO 2523 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-29T11:35:11.578+05:30  INFO 2523 --- [MCPEcom] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29T11:35:11.578+05:30  INFO 2523 --- [MCPEcom] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-29T11:35:11.605+05:30  INFO 2523 --- [MCPEcom] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29T11:35:11.606+05:30  INFO 2523 --- [MCPEcom] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 721 ms
+2025-05-29T11:35:11.653+05:30  INFO 2523 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T11:35:11.704+05:30  INFO 2523 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c17c0f8
+2025-05-29T11:35:11.705+05:30  INFO 2523 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T11:35:11.750+05:30  INFO 2523 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T11:35:11.781+05:30  INFO 2523 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T11:35:11.797+05:30  INFO 2523 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T11:35:11.934+05:30  INFO 2523 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T11:35:11.980+05:30  INFO 2523 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T11:35:12.391+05:30  INFO 2523 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T11:35:12.392+05:30  INFO 2523 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T11:35:12.593+05:30  WARN 2523 --- [MCPEcom] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-29T11:35:12.768+05:30  INFO 2523 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T11:35:12.769+05:30  INFO 2523 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T11:35:12.769+05:30  INFO 2523 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T11:35:12.769+05:30  INFO 2523 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T11:35:12.823+05:30  INFO 2523 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-29T11:35:12.829+05:30  INFO 2523 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Started McpEcomApplication in 2.271 seconds (process running for 2.473)
+2025-05-29T11:35:17.592+05:30  INFO 2523 --- [MCPEcom] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-29T11:35:17.592+05:30  INFO 2523 --- [MCPEcom] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-29T11:35:17.593+05:30  INFO 2523 --- [MCPEcom] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-29T11:35:17.618+05:30  INFO 2523 --- [MCPEcom] [http-nio-8080-exec-1] c.example.MCPEcom.service.OrderService   : Fetching all orders
+2025-05-29T11:35:21.882+05:30  INFO 2523 --- [MCPEcom] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-29T11:35:21.886+05:30  INFO 2523 --- [MCPEcom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-29T11:35:21.896+05:30  INFO 2523 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T11:35:21.898+05:30  INFO 2523 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T11:35:21.899+05:30  INFO 2523 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T11:43:47.353+05:30  INFO 2609 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication using Java 23 with PID 2609 (/Users/vickyabishek/Downloads/MCPEcom/target/classes started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T11:43:47.355+05:30  INFO 2609 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T11:43:47.807+05:30  INFO 2609 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T11:43:47.890+05:30  INFO 2609 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 3 JPA repository interfaces.
+2025-05-29T11:43:48.182+05:30  INFO 2609 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-29T11:43:48.190+05:30  INFO 2609 --- [MCPEcom] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29T11:43:48.190+05:30  INFO 2609 --- [MCPEcom] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-29T11:43:48.219+05:30  INFO 2609 --- [MCPEcom] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29T11:43:48.219+05:30  INFO 2609 --- [MCPEcom] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 827 ms
+2025-05-29T11:43:48.268+05:30  INFO 2609 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T11:43:48.326+05:30  INFO 2609 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35e98af
+2025-05-29T11:43:48.327+05:30  INFO 2609 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T11:43:48.377+05:30  INFO 2609 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T11:43:48.406+05:30  INFO 2609 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T11:43:48.424+05:30  INFO 2609 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T11:43:48.576+05:30  INFO 2609 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T11:43:48.625+05:30  INFO 2609 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T11:43:49.107+05:30  INFO 2609 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T11:43:49.108+05:30  INFO 2609 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T11:43:49.251+05:30  WARN 2609 --- [MCPEcom] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productTools' defined in com.example.MCPEcom.McpEcomApplication: Failed to instantiate [org.springframework.ai.tool.ToolCallbackProvider]: Factory method 'productTools' threw exception with message: No @Tool annotated methods found in com.example.MCPEcom.service.ProductService@118879d2.Did you mean to pass a ToolCallback or ToolCallbackProvider? If so, you have to use .toolCallbacks() instead of .tool()
+2025-05-29T11:43:49.251+05:30  INFO 2609 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T11:43:49.253+05:30  INFO 2609 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T11:43:49.254+05:30  INFO 2609 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T11:43:49.255+05:30  INFO 2609 --- [MCPEcom] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-29T11:43:49.263+05:30  INFO 2609 --- [MCPEcom] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-29T11:43:49.271+05:30 ERROR 2609 --- [MCPEcom] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productTools' defined in com.example.MCPEcom.McpEcomApplication: Failed to instantiate [org.springframework.ai.tool.ToolCallbackProvider]: Factory method 'productTools' threw exception with message: No @Tool annotated methods found in com.example.MCPEcom.service.ProductService@118879d2.Did you mean to pass a ToolCallback or ToolCallbackProvider? If so, you have to use .toolCallbacks() instead of .tool()
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.5.0.jar:3.5.0]
+	at com.example.MCPEcom.McpEcomApplication.main(McpEcomApplication.java:15) ~[classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ai.tool.ToolCallbackProvider]: Factory method 'productTools' threw exception with message: No @Tool annotated methods found in com.example.MCPEcom.service.ProductService@118879d2.Did you mean to pass a ToolCallback or ToolCallbackProvider? If so, you have to use .toolCallbacks() instead of .tool()
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 21 common frames omitted
+Caused by: java.lang.IllegalStateException: No @Tool annotated methods found in com.example.MCPEcom.service.ProductService@118879d2.Did you mean to pass a ToolCallback or ToolCallbackProvider? If so, you have to use .toolCallbacks() instead of .tool()
+	at org.springframework.ai.tool.method.MethodToolCallbackProvider.assertToolAnnotatedMethodsPresent(MethodToolCallbackProvider.java:75) ~[spring-ai-model-1.0.0.jar:1.0.0]
+	at org.springframework.ai.tool.method.MethodToolCallbackProvider.<init>(MethodToolCallbackProvider.java:59) ~[spring-ai-model-1.0.0.jar:1.0.0]
+	at org.springframework.ai.tool.method.MethodToolCallbackProvider$Builder.build(MethodToolCallbackProvider.java:145) ~[spring-ai-model-1.0.0.jar:1.0.0]
+	at com.example.MCPEcom.McpEcomApplication.productTools(McpEcomApplication.java:21) ~[classes/:na]
+	at com.example.MCPEcom.McpEcomApplication$$SpringCGLIB$$0.CGLIB$productTools$0(<generated>) ~[classes/:na]
+	at com.example.MCPEcom.McpEcomApplication$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.2.7.jar:6.2.7]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:393) ~[spring-context-6.2.7.jar:6.2.7]
+	at com.example.MCPEcom.McpEcomApplication$$SpringCGLIB$$0.productTools(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 24 common frames omitted
+
+2025-05-29T11:46:35.360+05:30  INFO 2642 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication using Java 23 with PID 2642 (/Users/vickyabishek/Downloads/MCPEcom/target/classes started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T11:46:35.361+05:30  INFO 2642 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T11:46:35.805+05:30  INFO 2642 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T11:46:35.879+05:30  INFO 2642 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 3 JPA repository interfaces.
+2025-05-29T11:46:36.179+05:30  INFO 2642 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-29T11:46:36.188+05:30  INFO 2642 --- [MCPEcom] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29T11:46:36.188+05:30  INFO 2642 --- [MCPEcom] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-29T11:46:36.217+05:30  INFO 2642 --- [MCPEcom] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29T11:46:36.217+05:30  INFO 2642 --- [MCPEcom] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 822 ms
+2025-05-29T11:46:36.270+05:30  INFO 2642 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T11:46:36.326+05:30  INFO 2642 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@372461a9
+2025-05-29T11:46:36.327+05:30  INFO 2642 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T11:46:36.374+05:30  INFO 2642 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T11:46:36.405+05:30  INFO 2642 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T11:46:36.423+05:30  INFO 2642 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T11:46:36.576+05:30  INFO 2642 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T11:46:36.640+05:30  INFO 2642 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T11:46:37.119+05:30  INFO 2642 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T11:46:37.120+05:30  INFO 2642 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T11:46:37.435+05:30  WARN 2642 --- [MCPEcom] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-29T11:46:37.622+05:30  INFO 2642 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T11:46:37.652+05:30  INFO 2642 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 5
+2025-05-29T11:46:37.652+05:30  INFO 2642 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T11:46:37.652+05:30  INFO 2642 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T11:46:37.652+05:30  INFO 2642 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T11:46:37.710+05:30  INFO 2642 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-29T11:46:37.718+05:30  INFO 2642 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Started McpEcomApplication in 2.693 seconds (process running for 2.948)
+2025-05-29T11:46:41.798+05:30  INFO 2642 --- [MCPEcom] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-29T11:46:41.799+05:30  INFO 2642 --- [MCPEcom] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-29T11:46:41.800+05:30  INFO 2642 --- [MCPEcom] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-29T11:46:41.825+05:30  INFO 2642 --- [MCPEcom] [http-nio-8080-exec-1] c.example.MCPEcom.service.OrderService   : Fetching all orders
+2025-05-29T11:46:44.149+05:30  INFO 2642 --- [MCPEcom] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-29T11:46:44.153+05:30  INFO 2642 --- [MCPEcom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-29T11:46:44.167+05:30  INFO 2642 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T11:46:44.168+05:30  INFO 2642 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T11:46:44.170+05:30  INFO 2642 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T11:55:06.370+05:30  INFO 4486 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication using Java 23 with PID 4486 (/Users/vickyabishek/Downloads/MCPEcom/target/classes started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T11:55:06.373+05:30  INFO 4486 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T11:55:06.821+05:30  INFO 4486 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T11:55:06.894+05:30  INFO 4486 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2025-05-29T11:55:07.170+05:30  INFO 4486 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-29T11:55:07.179+05:30  INFO 4486 --- [MCPEcom] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29T11:55:07.179+05:30  INFO 4486 --- [MCPEcom] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-29T11:55:07.209+05:30  INFO 4486 --- [MCPEcom] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29T11:55:07.209+05:30  INFO 4486 --- [MCPEcom] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 796 ms
+2025-05-29T11:55:07.257+05:30  INFO 4486 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T11:55:07.309+05:30  INFO 4486 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@372461a9
+2025-05-29T11:55:07.310+05:30  INFO 4486 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T11:55:07.353+05:30  INFO 4486 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T11:55:07.373+05:30  INFO 4486 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T11:55:07.390+05:30  INFO 4486 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T11:55:07.536+05:30  INFO 4486 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T11:55:07.578+05:30  INFO 4486 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T11:55:07.995+05:30  INFO 4486 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T11:55:07.996+05:30  INFO 4486 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T11:55:08.293+05:30  WARN 4486 --- [MCPEcom] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-29T11:55:08.463+05:30  INFO 4486 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T11:55:08.491+05:30  INFO 4486 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 5
+2025-05-29T11:55:08.491+05:30  INFO 4486 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T11:55:08.491+05:30  INFO 4486 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T11:55:08.491+05:30  INFO 4486 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T11:55:08.553+05:30  WARN 4486 --- [MCPEcom] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-05-29T11:55:08.562+05:30  INFO 4486 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T11:55:08.564+05:30  INFO 4486 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T11:55:08.565+05:30  INFO 4486 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T11:55:08.574+05:30  INFO 4486 --- [MCPEcom] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-29T11:55:08.581+05:30 ERROR 4486 --- [MCPEcom] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-05-29T11:55:14.950+05:30  INFO 4518 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication using Java 23 with PID 4518 (/Users/vickyabishek/Downloads/MCPEcom/target/classes started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T11:55:14.952+05:30  INFO 4518 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T11:55:15.382+05:30  INFO 4518 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T11:55:15.453+05:30  INFO 4518 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces.
+2025-05-29T11:55:15.735+05:30  INFO 4518 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-29T11:55:15.742+05:30  INFO 4518 --- [MCPEcom] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29T11:55:15.742+05:30  INFO 4518 --- [MCPEcom] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-29T11:55:15.767+05:30  INFO 4518 --- [MCPEcom] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29T11:55:15.767+05:30  INFO 4518 --- [MCPEcom] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 778 ms
+2025-05-29T11:55:15.817+05:30  INFO 4518 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T11:55:15.872+05:30  INFO 4518 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@48cb2d73
+2025-05-29T11:55:15.873+05:30  INFO 4518 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T11:55:15.921+05:30  INFO 4518 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T11:55:15.943+05:30  INFO 4518 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T11:55:15.965+05:30  INFO 4518 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T11:55:16.108+05:30  INFO 4518 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T11:55:16.152+05:30  INFO 4518 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T11:55:16.549+05:30  INFO 4518 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T11:55:16.550+05:30  INFO 4518 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T11:55:16.827+05:30  WARN 4518 --- [MCPEcom] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-29T11:55:17.007+05:30  INFO 4518 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T11:55:17.038+05:30  INFO 4518 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 5
+2025-05-29T11:55:17.038+05:30  INFO 4518 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T11:55:17.038+05:30  INFO 4518 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T11:55:17.038+05:30  INFO 4518 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T11:55:17.103+05:30  WARN 4518 --- [MCPEcom] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-05-29T11:55:17.111+05:30  INFO 4518 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T11:55:17.112+05:30  INFO 4518 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T11:55:17.114+05:30  INFO 4518 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T11:55:17.125+05:30  INFO 4518 --- [MCPEcom] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-29T11:55:17.132+05:30 ERROR 4518 --- [MCPEcom] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-05-29T11:56:12.225+05:30  INFO 4639 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication using Java 23 with PID 4639 (/Users/vickyabishek/Downloads/MCPEcom/target/classes started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T11:56:12.227+05:30  INFO 4639 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T11:56:12.655+05:30  INFO 4639 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T11:56:12.738+05:30  INFO 4639 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+2025-05-29T11:56:13.038+05:30  INFO 4639 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-29T11:56:13.048+05:30  INFO 4639 --- [MCPEcom] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29T11:56:13.048+05:30  INFO 4639 --- [MCPEcom] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-29T11:56:13.081+05:30  INFO 4639 --- [MCPEcom] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29T11:56:13.082+05:30  INFO 4639 --- [MCPEcom] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 804 ms
+2025-05-29T11:56:13.128+05:30  INFO 4639 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T11:56:13.183+05:30  INFO 4639 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@662be9f7
+2025-05-29T11:56:13.184+05:30  INFO 4639 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T11:56:13.229+05:30  INFO 4639 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T11:56:13.251+05:30  INFO 4639 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T11:56:13.268+05:30  INFO 4639 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T11:56:13.402+05:30  INFO 4639 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T11:56:13.444+05:30  INFO 4639 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T11:56:13.881+05:30  INFO 4639 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T11:56:13.882+05:30  INFO 4639 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T11:56:14.224+05:30  WARN 4639 --- [MCPEcom] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-29T11:56:14.399+05:30  INFO 4639 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T11:56:14.426+05:30  INFO 4639 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 5
+2025-05-29T11:56:14.426+05:30  INFO 4639 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T11:56:14.426+05:30  INFO 4639 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T11:56:14.426+05:30  INFO 4639 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T11:56:14.490+05:30  INFO 4639 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-29T11:56:14.498+05:30  INFO 4639 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Started McpEcomApplication in 2.561 seconds (process running for 2.797)
+2025-05-29T11:56:20.058+05:30  INFO 4639 --- [MCPEcom] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-29T11:56:20.058+05:30  INFO 4639 --- [MCPEcom] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-29T11:56:20.059+05:30  INFO 4639 --- [MCPEcom] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-29T12:06:49.076+05:30  INFO 4639 --- [MCPEcom] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-29T12:06:49.082+05:30  INFO 4639 --- [MCPEcom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-29T12:06:49.105+05:30  INFO 4639 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T12:06:49.111+05:30  INFO 4639 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T12:06:49.115+05:30  INFO 4639 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T12:09:20.260+05:30  INFO 6530 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication using Java 23 with PID 6530 (/Users/vickyabishek/Downloads/MCPEcom/target/classes started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T12:09:20.262+05:30  INFO 6530 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T12:09:20.668+05:30  INFO 6530 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T12:09:20.747+05:30  INFO 6530 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 3 JPA repository interfaces.
+2025-05-29T12:09:20.997+05:30  INFO 6530 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-29T12:09:21.005+05:30  INFO 6530 --- [MCPEcom] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29T12:09:21.005+05:30  INFO 6530 --- [MCPEcom] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-29T12:09:21.033+05:30  INFO 6530 --- [MCPEcom] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29T12:09:21.033+05:30  INFO 6530 --- [MCPEcom] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 742 ms
+2025-05-29T12:09:21.080+05:30  INFO 6530 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T12:09:21.142+05:30  INFO 6530 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58278366
+2025-05-29T12:09:21.142+05:30  INFO 6530 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T12:09:21.190+05:30  INFO 6530 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T12:09:21.219+05:30  INFO 6530 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T12:09:21.236+05:30  INFO 6530 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T12:09:21.373+05:30  INFO 6530 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T12:09:21.421+05:30  INFO 6530 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T12:09:21.851+05:30  INFO 6530 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T12:09:21.852+05:30  INFO 6530 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T12:09:22.113+05:30  WARN 6530 --- [MCPEcom] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-29T12:09:22.283+05:30  INFO 6530 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T12:09:22.308+05:30  INFO 6530 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-05-29T12:09:22.308+05:30  INFO 6530 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T12:09:22.308+05:30  INFO 6530 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T12:09:22.308+05:30  INFO 6530 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T12:09:22.370+05:30  INFO 6530 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-29T12:09:22.378+05:30  INFO 6530 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Started McpEcomApplication in 2.423 seconds (process running for 2.634)
+2025-05-29T12:09:31.240+05:30  INFO 6530 --- [MCPEcom] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-29T12:09:31.245+05:30  INFO 6530 --- [MCPEcom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-29T12:09:31.256+05:30  INFO 6530 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T12:09:31.257+05:30  INFO 6530 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T12:09:31.259+05:30  INFO 6530 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T12:14:23.795+05:30  INFO 6607 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication using Java 23 with PID 6607 (/Users/vickyabishek/Downloads/MCPEcom/target/classes started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T12:14:23.797+05:30  INFO 6607 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T12:14:24.237+05:30  INFO 6607 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T12:14:24.309+05:30  INFO 6607 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces.
+2025-05-29T12:14:24.564+05:30  INFO 6607 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-29T12:14:24.572+05:30  INFO 6607 --- [MCPEcom] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29T12:14:24.572+05:30  INFO 6607 --- [MCPEcom] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-29T12:14:24.601+05:30  INFO 6607 --- [MCPEcom] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29T12:14:24.601+05:30  INFO 6607 --- [MCPEcom] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 773 ms
+2025-05-29T12:14:24.652+05:30  INFO 6607 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T12:14:24.712+05:30  INFO 6607 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4cffd3fd
+2025-05-29T12:14:24.713+05:30  INFO 6607 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T12:14:24.763+05:30  INFO 6607 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T12:14:24.793+05:30  INFO 6607 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T12:14:24.810+05:30  INFO 6607 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T12:14:24.949+05:30  INFO 6607 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T12:14:24.998+05:30  INFO 6607 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T12:14:25.422+05:30  INFO 6607 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T12:14:25.424+05:30  INFO 6607 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T12:14:25.654+05:30  WARN 6607 --- [MCPEcom] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-29T12:14:25.819+05:30  INFO 6607 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T12:14:25.847+05:30  INFO 6607 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-05-29T12:14:25.847+05:30  INFO 6607 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T12:14:25.847+05:30  INFO 6607 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T12:14:25.847+05:30  INFO 6607 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T12:14:25.907+05:30  INFO 6607 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-29T12:14:25.915+05:30  INFO 6607 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Started McpEcomApplication in 2.462 seconds (process running for 2.746)
+2025-05-29T12:14:28.222+05:30  INFO 6607 --- [MCPEcom] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-29T12:14:28.226+05:30  INFO 6607 --- [MCPEcom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-29T12:14:28.236+05:30  INFO 6607 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T12:14:28.238+05:30  INFO 6607 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T12:14:28.239+05:30  INFO 6607 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T12:21:36.901+05:30  INFO 8765 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T12:21:36.984+05:30  INFO 8765 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 3 JPA repository interfaces.
+2025-05-29T12:21:37.456+05:30  INFO 8765 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T12:21:37.888+05:30  INFO 8765 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T12:21:38.094+05:30  INFO 8765 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T12:21:38.124+05:30  INFO 8765 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-05-29T12:21:38.125+05:30  INFO 8765 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T12:21:38.125+05:30  INFO 8765 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T12:21:38.126+05:30  INFO 8765 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T12:21:38.211+05:30  INFO 8765 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

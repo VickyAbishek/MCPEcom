@@ -1,0 +1,284 @@
+2025-05-29T10:32:50.185+05:30  INFO 16424 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication using Java 23 with PID 16424 (/Users/vickyabishek/Downloads/MCPEcom/target/classes started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T10:32:50.187+05:30  INFO 16424 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T10:32:50.519+05:30  INFO 16424 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T10:32:50.598+05:30  INFO 16424 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 3 JPA repository interfaces.
+2025-05-29T10:32:50.766+05:30  INFO 16424 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T10:32:50.828+05:30  INFO 16424 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@340a8894
+2025-05-29T10:32:50.829+05:30  INFO 16424 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T10:32:50.872+05:30  INFO 16424 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T10:32:50.900+05:30  INFO 16424 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T10:32:50.916+05:30  INFO 16424 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T10:32:51.070+05:30  INFO 16424 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T10:32:51.119+05:30  INFO 16424 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T10:32:51.534+05:30  INFO 16424 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T10:32:51.535+05:30  INFO 16424 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:32:51.699+05:30  INFO 16424 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T10:32:51.700+05:30  INFO 16424 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T10:32:51.700+05:30  INFO 16424 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T10:32:51.700+05:30  INFO 16424 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T10:32:51.767+05:30  INFO 16424 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Started McpEcomApplication in 1.892 seconds (process running for 2.125)
+2025-05-29T10:32:51.781+05:30  INFO 16424 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:32:51.782+05:30  INFO 16424 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T10:32:51.784+05:30  INFO 16424 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T10:33:04.537+05:30  INFO 16441 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication using Java 23 with PID 16441 (/Users/vickyabishek/Downloads/MCPEcom/target/classes started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T10:33:04.538+05:30  INFO 16441 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T10:33:04.881+05:30  INFO 16441 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T10:33:04.955+05:30  INFO 16441 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2025-05-29T10:33:05.102+05:30  INFO 16441 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T10:33:05.155+05:30  INFO 16441 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3650d4fc
+2025-05-29T10:33:05.156+05:30  INFO 16441 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T10:33:05.201+05:30  INFO 16441 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T10:33:05.227+05:30  INFO 16441 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T10:33:05.242+05:30  INFO 16441 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T10:33:05.411+05:30  INFO 16441 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T10:33:05.459+05:30  INFO 16441 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T10:33:05.907+05:30  INFO 16441 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T10:33:05.908+05:30  INFO 16441 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:33:06.074+05:30  INFO 16441 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T10:33:06.075+05:30  INFO 16441 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T10:33:06.075+05:30  INFO 16441 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T10:33:06.076+05:30  INFO 16441 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T10:33:06.145+05:30  INFO 16441 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Started McpEcomApplication in 1.925 seconds (process running for 2.191)
+2025-05-29T10:33:06.159+05:30  INFO 16441 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:33:06.160+05:30  INFO 16441 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T10:33:06.162+05:30  INFO 16441 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T10:33:27.882+05:30  INFO 16462 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication using Java 23 with PID 16462 (/Users/vickyabishek/Downloads/MCPEcom/target/classes started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T10:33:27.884+05:30  INFO 16462 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T10:33:28.262+05:30  INFO 16462 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T10:33:28.332+05:30  INFO 16462 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+2025-05-29T10:33:28.471+05:30  INFO 16462 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T10:33:28.525+05:30  INFO 16462 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@340a8894
+2025-05-29T10:33:28.526+05:30  INFO 16462 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T10:33:28.575+05:30  INFO 16462 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T10:33:28.605+05:30  INFO 16462 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T10:33:28.621+05:30  INFO 16462 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T10:33:28.789+05:30  INFO 16462 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T10:33:28.839+05:30  INFO 16462 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T10:33:29.262+05:30  INFO 16462 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T10:33:29.263+05:30  INFO 16462 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:33:29.424+05:30  INFO 16462 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T10:33:29.425+05:30  INFO 16462 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T10:33:29.425+05:30  INFO 16462 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T10:33:29.425+05:30  INFO 16462 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T10:33:29.489+05:30  INFO 16462 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Started McpEcomApplication in 2.176 seconds (process running for 2.49)
+2025-05-29T10:33:29.505+05:30  INFO 16462 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:33:29.507+05:30  INFO 16462 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T10:33:29.509+05:30  INFO 16462 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T10:33:48.846+05:30  INFO 16488 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication using Java 23.0.2 with PID 16488 (/Users/vickyabishek/Downloads/MCPEcom/target/classes started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T10:33:48.847+05:30  INFO 16488 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T10:33:49.106+05:30  INFO 16488 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T10:33:49.172+05:30  INFO 16488 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 3 JPA repository interfaces.
+2025-05-29T10:33:49.285+05:30  INFO 16488 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T10:33:49.346+05:30  INFO 16488 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2cc75074
+2025-05-29T10:33:49.347+05:30  INFO 16488 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T10:33:49.384+05:30  INFO 16488 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T10:33:49.411+05:30  INFO 16488 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T10:33:49.426+05:30  INFO 16488 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T10:33:49.564+05:30  INFO 16488 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T10:33:49.617+05:30  INFO 16488 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T10:33:50.021+05:30  INFO 16488 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T10:33:50.022+05:30  INFO 16488 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:33:50.171+05:30  INFO 16488 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T10:33:50.171+05:30  INFO 16488 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T10:33:50.172+05:30  INFO 16488 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T10:33:50.172+05:30  INFO 16488 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T10:33:50.225+05:30  INFO 16488 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Started McpEcomApplication in 1.577 seconds (process running for 1.746)
+2025-05-29T10:33:50.236+05:30  INFO 16488 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:33:50.237+05:30  INFO 16488 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T10:33:50.241+05:30  INFO 16488 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T10:34:47.736+05:30  INFO 16532 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication using Java 23 with PID 16532 (/Users/vickyabishek/Downloads/MCPEcom/target/classes started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T10:34:47.737+05:30  INFO 16532 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T10:34:48.185+05:30  INFO 16532 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T10:34:48.257+05:30  INFO 16532 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+2025-05-29T10:34:48.517+05:30  INFO 16532 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-29T10:34:48.527+05:30  INFO 16532 --- [MCPEcom] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29T10:34:48.527+05:30  INFO 16532 --- [MCPEcom] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-29T10:34:48.562+05:30  INFO 16532 --- [MCPEcom] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29T10:34:48.563+05:30  INFO 16532 --- [MCPEcom] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 789 ms
+2025-05-29T10:34:48.627+05:30  INFO 16532 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T10:34:48.701+05:30  INFO 16532 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@498a612d
+2025-05-29T10:34:48.703+05:30  INFO 16532 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T10:34:48.780+05:30  INFO 16532 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T10:34:48.820+05:30  INFO 16532 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T10:34:48.839+05:30  INFO 16532 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T10:34:49.013+05:30  INFO 16532 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T10:34:49.061+05:30  INFO 16532 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T10:34:49.493+05:30  INFO 16532 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T10:34:49.494+05:30  INFO 16532 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:34:49.683+05:30  WARN 16532 --- [MCPEcom] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-29T10:34:49.863+05:30  INFO 16532 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T10:34:49.863+05:30  INFO 16532 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T10:34:49.863+05:30  INFO 16532 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T10:34:49.864+05:30  INFO 16532 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T10:34:49.922+05:30  INFO 16532 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-29T10:34:49.932+05:30  INFO 16532 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Started McpEcomApplication in 2.558 seconds (process running for 2.884)
+2025-05-29T10:34:54.274+05:30  INFO 16532 --- [MCPEcom] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-29T10:34:54.274+05:30  INFO 16532 --- [MCPEcom] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-29T10:34:54.275+05:30  INFO 16532 --- [MCPEcom] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-29T10:34:54.298+05:30  INFO 16532 --- [MCPEcom] [http-nio-8080-exec-1] c.example.MCPEcom.service.OrderService   : Fetching all orders
+2025-05-29T10:35:00.189+05:30  INFO 16532 --- [MCPEcom] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-29T10:35:00.193+05:30  INFO 16532 --- [MCPEcom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-29T10:35:00.206+05:30  INFO 16532 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:35:00.208+05:30  INFO 16532 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T10:35:00.209+05:30  INFO 16532 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T10:47:48.516+05:30  INFO 17041 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication v0.0.1-SNAPSHOT using Java 23.0.2 with PID 17041 (/Users/vickyabishek/Downloads/MCPEcom/target/MCPEcom-0.0.1-SNAPSHOT.jar started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T10:47:48.517+05:30  INFO 17041 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T10:47:48.876+05:30  INFO 17041 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T10:47:48.969+05:30  INFO 17041 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+2025-05-29T10:47:49.112+05:30  INFO 17041 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T10:47:49.201+05:30  INFO 17041 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a2c717f
+2025-05-29T10:47:49.202+05:30  INFO 17041 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T10:47:49.252+05:30  INFO 17041 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T10:47:49.294+05:30  INFO 17041 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T10:47:49.319+05:30  INFO 17041 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T10:47:49.519+05:30  INFO 17041 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T10:47:49.582+05:30  INFO 17041 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T10:47:50.137+05:30  INFO 17041 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T10:47:50.138+05:30  INFO 17041 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:47:50.332+05:30  INFO 17041 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T10:47:50.333+05:30  INFO 17041 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T10:47:50.333+05:30  INFO 17041 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T10:47:50.333+05:30  INFO 17041 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T10:47:50.402+05:30  INFO 17041 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Started McpEcomApplication in 2.146 seconds (process running for 2.513)
+2025-05-29T10:47:50.415+05:30  INFO 17041 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:47:50.416+05:30  INFO 17041 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T10:47:50.418+05:30  INFO 17041 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T10:49:14.232+05:30  INFO 17076 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication v0.0.1-SNAPSHOT using Java 23.0.2 with PID 17076 (/Users/vickyabishek/Downloads/MCPEcom/target/MCPEcom-0.0.1-SNAPSHOT.jar started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T10:49:14.233+05:30  INFO 17076 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T10:49:14.546+05:30  INFO 17076 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T10:49:14.647+05:30  INFO 17076 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 3 JPA repository interfaces.
+2025-05-29T10:49:14.792+05:30  INFO 17076 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T10:49:14.868+05:30  INFO 17076 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7847ef2c
+2025-05-29T10:49:14.869+05:30  INFO 17076 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T10:49:14.922+05:30  INFO 17076 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T10:49:14.957+05:30  INFO 17076 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T10:49:14.989+05:30  INFO 17076 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T10:49:15.182+05:30  INFO 17076 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T10:49:15.238+05:30  INFO 17076 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T10:49:15.845+05:30  INFO 17076 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T10:49:15.847+05:30  INFO 17076 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:49:16.046+05:30  INFO 17076 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T10:49:16.046+05:30  INFO 17076 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T10:49:16.046+05:30  INFO 17076 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T10:49:16.047+05:30  INFO 17076 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T10:49:16.111+05:30  INFO 17076 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Started McpEcomApplication in 2.121 seconds (process running for 2.428)
+2025-05-29T10:49:16.123+05:30  INFO 17076 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:49:16.124+05:30  INFO 17076 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T10:49:16.126+05:30  INFO 17076 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T10:50:03.262+05:30  INFO 17109 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication v0.0.1-SNAPSHOT using Java 23.0.2 with PID 17109 (/Users/vickyabishek/Downloads/MCPEcom/target/MCPEcom-0.0.1-SNAPSHOT.jar started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T10:50:03.264+05:30  INFO 17109 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T10:50:03.586+05:30  INFO 17109 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T10:50:03.670+05:30  INFO 17109 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+2025-05-29T10:50:03.809+05:30  INFO 17109 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T10:50:03.885+05:30  INFO 17109 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d96bdf8
+2025-05-29T10:50:03.886+05:30  INFO 17109 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T10:50:03.933+05:30  INFO 17109 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T10:50:03.967+05:30  INFO 17109 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T10:50:03.999+05:30  INFO 17109 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T10:50:04.189+05:30  INFO 17109 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T10:50:04.245+05:30  INFO 17109 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T10:50:04.795+05:30  INFO 17109 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T10:50:04.797+05:30  INFO 17109 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:50:04.979+05:30  INFO 17109 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T10:50:04.979+05:30  INFO 17109 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T10:50:04.979+05:30  INFO 17109 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T10:50:04.979+05:30  INFO 17109 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T10:50:05.039+05:30  INFO 17109 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Started McpEcomApplication in 2.017 seconds (process running for 2.324)
+2025-05-29T10:50:05.052+05:30  INFO 17109 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:50:05.053+05:30  INFO 17109 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T10:50:05.056+05:30  INFO 17109 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T10:52:26.967+05:30  INFO 17397 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Starting McpEcomApplication v0.0.1-SNAPSHOT using Java 23.0.2 with PID 17397 (/Users/vickyabishek/Downloads/MCPEcom/target/MCPEcom-0.0.1-SNAPSHOT.jar started by vickyabishek in /Users/vickyabishek/Downloads/MCPEcom)
+2025-05-29T10:52:26.968+05:30  INFO 17397 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T10:52:27.448+05:30  INFO 17397 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T10:52:27.531+05:30  INFO 17397 --- [MCPEcom] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 3 JPA repository interfaces.
+2025-05-29T10:52:27.785+05:30  INFO 17397 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-29T10:52:27.793+05:30  INFO 17397 --- [MCPEcom] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29T10:52:27.793+05:30  INFO 17397 --- [MCPEcom] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-29T10:52:27.807+05:30  INFO 17397 --- [MCPEcom] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29T10:52:27.807+05:30  INFO 17397 --- [MCPEcom] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 806 ms
+2025-05-29T10:52:27.853+05:30  INFO 17397 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T10:52:27.938+05:30  INFO 17397 --- [MCPEcom] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@59d0cdb6
+2025-05-29T10:52:27.939+05:30  INFO 17397 --- [MCPEcom] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T10:52:27.986+05:30  INFO 17397 --- [MCPEcom] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T10:52:28.029+05:30  INFO 17397 --- [MCPEcom] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T10:52:28.048+05:30  INFO 17397 --- [MCPEcom] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T10:52:28.216+05:30  INFO 17397 --- [MCPEcom] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T10:52:28.275+05:30  INFO 17397 --- [MCPEcom] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T10:52:28.812+05:30  INFO 17397 --- [MCPEcom] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T10:52:28.814+05:30  INFO 17397 --- [MCPEcom] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:52:29.034+05:30  WARN 17397 --- [MCPEcom] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-29T10:52:29.205+05:30  INFO 17397 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-05-29T10:52:29.206+05:30  INFO 17397 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-05-29T10:52:29.206+05:30  INFO 17397 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-05-29T10:52:29.206+05:30  INFO 17397 --- [MCPEcom] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-05-29T10:52:29.269+05:30  INFO 17397 --- [MCPEcom] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-29T10:52:29.277+05:30  INFO 17397 --- [MCPEcom] [main] com.example.MCPEcom.McpEcomApplication   : Started McpEcomApplication in 2.567 seconds (process running for 2.895)
+2025-05-29T10:53:45.038+05:30  WARN 17397 --- [MCPEcom] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s993ms).
+2025-05-29T10:53:45.070+05:30  INFO 17397 --- [MCPEcom] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-29T10:53:45.079+05:30  INFO 17397 --- [MCPEcom] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-29T10:53:45.373+05:30  INFO 17397 --- [MCPEcom] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T10:53:45.376+05:30  INFO 17397 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T10:53:45.379+05:30  INFO 17397 --- [MCPEcom] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
